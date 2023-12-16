@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Rubik+Doodle+Shadow&display=swap');
+.main form .input {
+    width: 300px;
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: solid 3px black;
+    font-family: 'Bree Serif', serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.main form .button {
+    padding: 12px;
+    border-radius: 30px;
+    border: solid 3px black;
+    cursor: pointer;
+    font-family: 'Bree Serif', serif;
+    font-weight: bolder;
+}
+
+.main form .button:hover {
+    background-color: black;
+    border: solid 3px aliceblue;
+    color: aliceblue;
+    font-family: 'Bree Serif', serif;
+    font-weight: lighter;
+}
+
+.main .content .divLoading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .content .divLoading {
+    margin-top: 20px;
+}
+
+.main .content .divLoading p {
+    font-family: 'Bree Serif', serif;
+    font-weight: bolder;
+}
+
+.main .content .divLoading img {
+    width: 150px;
+}
+
+.main .content .divContent .divTitle {
+    border-top: solid 5px rgb(188, 235, 221);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border-bottom: solid 5px rgb(188, 235, 221);
+}
+
+.main .content .divContent .divTitle .title {
+    font-family: 'Bree Serif', serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.main .content .divContent .infoRepository {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main .content .divContent .infoRepository .divInfo {
+    flex: 0 0 calc(30% - 20px);
+    margin-top: 10px;
+    background-color: #ca70ce;
+    background-image: linear-gradient(45deg, #ca70ce 0%, #28b1d6 52%, #17b75e 90%);
+    border: 3px solid rgb(0, 0, 0);
+    color: aliceblue;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.main .content .divContent .infoRepository .divInfo p {
+    font-family: 'Bree Serif', serif;
+    font-size: 18px;
+}
+
+.divButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+    padding: 8px;
+}
+
+.divButton .button {
+    height: 30px;
+    margin: 2px 2px 3px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: solid 2px black;
+    font-family: 'Bree Serif', serif;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.divButton .button:hover {
+    background-color: black;
+    color: aliceblue;
+    font-weight: lighter;
+    border: solid 2px aliceblue;
+}
+
+
+/*responsividade*/
+
+@media(max-width: 1417px) {
+    .main .content .divContent .infoRepository .divInfo {
+        flex: 0 0 calc(30% - 20px);
+        margin-top: 10px;
+        background-color: #ca70ce;
+        background-image: linear-gradient(45deg, #ca70ce 0%, #28b1d6 52%, #17b75e 90%);
+        border: 3px solid rgb(6, 20, 32);
+        color: aliceblue;
+        border-radius: 20px;
+        text-align: center;
+        padding: 10px;
+        box-sizing: border-box;
+        width: 20%;
+    }
+    .main .content .divContent .infoRepository .divInfo p {
+        font-family: 'Bree Serif', serif;
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 841px) {
+    .main .content .divContent .infoRepository .divInfo {
+        flex: 0 0 calc(30% - 20px);
+        margin-top: 10px;
+        background-color: #ca70ce;
+        background-image: linear-gradient(45deg, #ca70ce 0%, #28b1d6 52%, #17b75e 90%);
+        border: 3px solid rgb(6, 20, 32);
+        color: aliceblue;
+        border-radius: 20px;
+        text-align: center;
+        padding: 10px;
+        box-sizing: border-box;
+        width: 20%;
+    }
+    .main .content .divContent .infoRepository .divInfo p {
+        font-family: 'Bree Serif', serif;
+        font-size: 8px;
+        min-height: 100px;
+        /* Exemplo de altura mínima para a div */
+        word-wrap: break-word;
+        /* Permite que palavras longas sejam quebradas e continuem na linha seguinte */
+        white-space: pre-line;
+    }
+}
+
+@media(max-width: 517px) {
+    .main .content .divContent .divTitle .title {
+        font-family: 'Bree Serif', serif;
+        font-weight: bolder;
+        font-size: 15px;
+    }
+    .main .content .divContent .infoRepository .divInfo {
+        flex: 0 0 calc(30% - 20px);
+        margin-top: 10px;
+        background-color: #ca70ce;
+        background-image: linear-gradient(45deg, #ca70ce 0%, #28b1d6 52%, #17b75e 90%);
+        border: 3px solid rgb(6, 20, 32);
+        color: aliceblue;
+        border-radius: 20px;
+        text-align: center;
+        padding: 10px;
+        box-sizing: border-box;
+        width: 30%;
+    }
+    .main .content .divContent .infoRepository .divInfo p {
+        font-family: 'Bree Serif', serif;
+        font-size: 10px;
+        padding: 3px;
+        min-height: 100px;
+        word-wrap: break-word;
+        white-space: pre-line;
+    }
+}

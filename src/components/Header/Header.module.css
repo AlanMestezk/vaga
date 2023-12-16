@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Rubik+Doodle+Shadow&display=swap');
+.container .divTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divTitle .title {
+    font-family: 'Bree Serif', serif;
+    font-size: 45px;
+}
+
+.divTitle .logo {
+    width: 130px;
+}
+
+.divSubtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divSubtitle .subtitle {
+    font-family: 'Bree Serif', serif;
+    font-size: 15px;
+}
+
+@media(max-width: 517px) {
+    .divTitle .title {
+        font-family: 'Bree Serif', serif;
+        font-size: 30px;
+    }
+    .divTitle .logo {
+        width: 80px;
+    }
+}
