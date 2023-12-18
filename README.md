@@ -24,8 +24,7 @@ Para acrescentar esta funcionalidade é nescessario atualizar a função do bot�
 A aplicação tambem esta responsiva.
 O modo estilização utilizado foi o css modules, assim consigo ter mais precisão na estilização dos componentes.
 
-
-
+Link para aplicação: https://mimir-search.vercel.app
 
 
 
